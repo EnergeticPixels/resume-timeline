@@ -44,3 +44,21 @@ h1 {
   padding-top: 50px;
   background-color: white;
 }
+
+/*   BOXES    */
+#timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  transition: all 0.5s ease-in-out;
+}
+/*    RIGHT SIDE  */
+#timeline ul li:nth-child(odd) div {
+  left: 40px;
+}
+/*    LEFT SIDE  */
+#timeline ul li:nth-child(even) div {
+  left: -434px;
+}
